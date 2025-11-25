@@ -1,0 +1,36 @@
+nav > ul{
+display: flex; 
+justify-content: center;
+align-items: center;   
+}
+
+ul{list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li:first-child{
+    border-radius: 10px 0px 0px 10px;
+}
+
+li:last-child{
+    border-radius: 0px 10px 10px 0px;
+}
+
+li{
+    text-align: center;
+    flex-grow: 2;
+    background-color: azure;
+    padding: 0,8rem;
+    transition: all 0.3s linear;
+    box-shadow: 0px 5px 0px 0px grey;
+}
+
+li:hover{
+    flex-grow: 2;
+    background-color: greenyellow;
+    box-shadow: 0px 5px 0px 0px green;
+}
